@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 
 app = Flask(__name__)
 
@@ -13,3 +13,8 @@ def show_user_profile(username):
 @app.route('/hello/<name>')
 def hello(name=None):
     return render_template('hello.html', name=name)
+
+@app.route('/image')
+def image_example():
+    img_url = url_for('static', filename='flaskLogo.png')
+    return render_template('image.html', url =img_url, title='Flaks Image', img_url=img_url)

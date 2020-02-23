@@ -17,12 +17,16 @@ Endpoints         | Content
 /                 | Welcome Page
 /users/{username} | Hello User Endpoint
 /hello/{name}     | Hello User Page
+/image            | Image exemplary Page
 
 
 ## Project Structure
 ```
 /application
-    /__init__.py
+    /app.py
+    /static
+        /flaskLogo.png
     /templates
         /hello.html
+        /image.html
 ```
