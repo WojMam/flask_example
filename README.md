@@ -15,4 +15,14 @@ Application will be available at "http://127.0.0.1:5000/" address.
 Endpoints         | Content
 ----------------- | -------------
 /                 | Welcome Page
-/users/{username} | Hello User Page
+/users/{username} | Hello User Endpoint
+/hello/{name}     | Hello User Page
+
+
+## Project Structure
+```
+/application
+    /__init__.py
+    /templates
+        /hello.html
+```
