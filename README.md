@@ -1,1 +1,5 @@
-# flask_example
+# Flask example
+This is exemplary flask application
+
+## Run
+---
