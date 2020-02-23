@@ -9,3 +9,10 @@ To run application use below command:
 ```$ flask run```
 
 Application will be available at "http://127.0.0.1:5000/" address.
+
+## Endpoints
+
+Endpoints         | Content
+----------------- | -------------
+/                 | Welcome Page
+/users/{username} | Hello User Page
