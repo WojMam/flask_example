@@ -1,0 +1,11 @@
+<!doctype html>
+<title>Image in Flask</title>
+{% if img_url %}
+    <h1>Random Static Image</h1>
+    <p>Image Address is: {{ img_url }}</p>
+
+
+    <img src={{ url}} alt="Chart">
+{% else %}
+  <h1>No image here!</h1>
+{% endif %}
